@@ -1,0 +1,82 @@
+/* pc >1024 */
+@media (min-width:64em ) {
+    
+}
+/* tablet [740,1024]*/
+@media (min-width:46.25em) and (max-width:63.9375em ) {
+  
+}
+/* mobile <740 */
+@media  (max-width:63.9375em  ) {
+    .btn{
+        padding: 14px 16px;
+    }
+    .subnav li a{
+        padding: 5px 12px;
+    }
+    .contact-infor{
+        line-height: 2;
+    }
+    .contact-form .form-control{
+        padding: 15px 8px;
+        display: inline-block;
+        font-size: 16px;
+    }
+    .contact-submit-btn{
+        font-size: 17px;
+    }
+    .social-list a{
+        font-size:48px ;
+        margin: 0 8px;
+    }
+    
+    .copyright a {
+
+    }
+}
+/* mobile <740 */
+@media  (max-width:46.1875em ) {
+    .s-mt-8{
+        margin-top: 18px!important;
+    }
+    .s-col-full,
+    .s-full-width{
+        width: 100%;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+       
+        display: block;
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    #nav li{
+        display: block;
+    }
+    .search-btn{
+        display: none;
+    }
+    .mobie-menu-btn{
+        display: block;
+    }
+    .subnav{
+        position: inherit;
+        width: 100%;
+        background-color: #333;
+    }
+    .subnav li a{
+        color: #fff;
+        padding: 1px 32px;
+    }
+    .members-list .member-img{
+        margin-bottom: 15px;
+    }
+    .contact-form {
+        margin-top: 32px;
+    }
+    
+   
+}
